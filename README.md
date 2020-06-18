@@ -11,6 +11,8 @@ git push origin main
 git push origin :master
 git remote set-head origin main
 git push origin HEAD:main
+git branch --unset-upstream
+git push --set-upstream origin main
 ```
 
 # Make template
